@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="data:image/png;base64,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" type="images/x-icon">
+        
+<title>Pelatihan Geo Mandiri Group</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+        background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url('https://images.unsplash.com/photo-1501785888041-af3ef285b470');
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+
+    .container {
+        width: 90%;
+        margin: 50px auto;
+        text-align: center;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+        font-size: 40px;
+    }
+
+    p {
+        margin-bottom: 30px;
+        color: #ddd;
+    }
+
+    .table-container {
+        overflow-x: auto;
+        backdrop-filter: blur(10px);
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background: rgba(255,255,255,0.1);
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    th, td {
+        padding: 15px;
+        text-align: center;
+    }
+
+    th {
+        background: rgba(0,0,0,0.6);
+        font-size: 18px;
+    }
+
+    tr {
+        transition: 0.3s;
+    }
+
+    tr:hover {
+        background: rgba(255,255,255,0.2);
+    }
+
+    td {
+        color: #f1f1f1;
+    }
+
+    .btn {
+        padding: 8px 15px;
+        border: none;
+        border-radius: 20px;
+        background: #00c9a7;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background: #00a387;
+        transform: scale(1.1);
+    }
+
+    footer {
+        margin-top: 30px;
+        color: #ccc;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="container">
+    <h1>Pelatihan Geo Mandiri Group</h1>
+    <p>Bidang Keahlian K3 Umum</p>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Pelatihan</th>
+                    <th>Biaya</th>
+                    <th>Durasi</th>
+                    <th>Instruktur</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ahli K3 Umum</td>
+                    <td>Rp 8.500.000</td>
+                    <td>12 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                     </tbody>
+        </table>
+    </div>
+
+    
+    <div class="container">
+    <h1>Pelatihan Geo Mandiri Group</h1>
+    <p>Bidang sistim Managemen K3 (SMK3)</p>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Pelatihan</th>
+                    <th>Biaya</th>
+                    <th>Durasi</th>
+                    <th>Instruktur</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>1</td>
+                    <td>Auditor SMK3 </td>
+                    <td>Rp 8.000.000</td>
+                    <td>5 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                  </tbody>
+        </table>
+    </div>
+
+</div>
+<div class="container">
+    <h1>Pelatihan Geo Mandiri Group</h1>
+    <p>Bidang Ergonomi Lingkunan Kerja dan Bahan Berbahaya</p>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Pelatihan</th>
+                    <th>Biaya</th>
+                    <th>Durasi</th>
+                    <th>Instruktur</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ahli K3 Kimia</td>
+                    <td>Rp 12.500.000</td>
+                    <td>12 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Petugas K3 Kimia</td>
+                    <td>Rp 8.500.000</td>
+                    <td>6 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Ahli K3 Muda Lingkungan</td>
+                    <td>Rp 12.000.000</td>
+                    <td>7 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Tehnisi Ruang Terbatas</td>
+                    <td>Rp 8.500.0000</td>
+                    <td>5 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Petugas K3 Penyelamat</td>
+                    <td>Rp 7.500.0000</td>
+                    <td>3 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Tehnisi K3 Deteksi Gas</td>
+                    <td>Rp 7.500.0000</td>
+                    <td>3 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+            
+            </tbody>
+        </table>
+    </div>
+
+</div>
+<div class="container">
+    <h1>Pelatihan Geo Mandiri Group</h1>
+    <p>Bidang Pekerjaan Pada Ketinggian </p>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Pelatihan</th>
+                    <th>Biaya</th>
+                    <th>Durasi</th>
+                    <th>Instruktur</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Tenaga Kerja Bangunan Tingkat Tinggi 2</td>
+                    <td>Rp 7.500.000</td>
+                    <td>3 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Tenaga Kerja Pada Ketinggian 1 </td>
+                    <td>Rp 9.000.000</td>
+                    <td>5 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Tenaga Kerja Pada Ketinggian Tingkat 2</td>
+                    <td>Rp 10.000.000</td>
+                    <td>5 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                </tr>
+            
+            </tbody>
+        </table>
+    </div>
+
+</div>
+<div class="container">
+    <h1>Pelatihan Geo Mandiri Group</h1>
+    <p>Bidang Kesehatan Kerja </p>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Pelatihan</th>
+                    <th>Biaya</th>
+                    <th>Durasi</th>
+                    <th>Instruktur</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Petugas P3K di Tempat Kerja</td>
+                    <td>Rp 7.500.000</td>
+                    <td>3 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Hyperkes Untuk Paramedis</td>
+                    <td>Rp 7.500.000</td>
+                    <td>5 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Hyperkes Untuk Dokter</td>
+                    <td>Rp 8.500.000</td>
+                    <td>6 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>K3 Rumah Sakit</td>
+                    <td>Rp 6.500.0000</td>
+                    <td>4 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+
+</div>
+<div class="container">
+    <h1>Pelatihan Geo Mandiri Group</h1>
+    <p>Bidang Listrik</p>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Pelatihan</th>
+                    <th>Biaya</th>
+                    <th>Durasi</th>
+                    <th>Instruktur</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ahli K3 Listrik</td>
+                    <td>Rp 20.500.000</td>
+                    <td>18 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Tehnisi Listrik</td>
+                    <td>Rp 8.500.000</td>
+                    <td>7 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                
+            
+            </tbody>
+        </table>
+    </div>
+
+</div>
+<div class="container">
+    <h1>Pelatihan Geo Mandiri Group</h1>
+    <p>Bidang Elevator dan Eskalator</p>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Pelatihan</th>
+                    <th>Biaya</th>
+                    <th>Durasi</th>
+                    <th>Instruktur</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ahli K3 Elevator dan Eskalator</td>
+                    <td>Rp 19.500.000</td>
+                    <td>12 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Tehnisi Elevator dan Eskalator</td>
+                    <td>Rp 8.500.000</td>
+                    <td>6 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Operator Elevator dan Eskalator</td>
+                    <td>Rp 8.500.000</td>
+                    <td>6 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                
+            </tbody>
+        </table>
+    </div>
+<div class="container">
+    <h1>Pelatihan Geo Mandiri Group</h1>
+    <p>Bidang Penanggulangan Kebakaran</p>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Pelatihan</th>
+                    <th>Biaya</th>
+                    <th>Durasi</th>
+                    <th>Instruktur</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ahli K3 Spesialis Kebakaran Tingkat A</td>
+                    <td>Rp 9.500.000</td>
+                    <td>7 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Petugas (Koordinator) Kebakaran Tingkat B </td>
+                    <td>Rp 9.500.000</td>
+                    <td>7 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Petugas (Regu) Kebakaran Tingkat C</td>
+                    <td>Rp 9.000.000</td>
+                    <td>6 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Petugas (Peran) Kebakaran Tingkat D </td>
+                    <td>Rp 6.000.0000</td>
+                    <td>3 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+                </tr>
+            
+            </tbody>
+        </table>
+    </div>
+<div class="container">
+    <h1>Pelatihan Geo Mandiri Group</h1>
+    <p>Bidang Kontruksi dan Bangunan</p>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Pelatihan</th>
+                    <th>Biaya</th>
+                    <th>Durasi</th>
+                    <th>Instruktur</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ahli K3 Madya Kontruksi</td>
+                    <td>Rp 11.500.000</td>
+                    <td>9 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Ahli K3 Muda Kontruksi</td>
+                    <td>Rp 9.000.000</td>
+                    <td>7 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Supervisi Perancah</td>
+                    <td>Rp 8.500.000</td>
+                    <td>5 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Tehnisi Perancah</td>
+                    <td>Rp 7.500.0000</td>
+                    <td>4 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+                            
+            </tbody>
+        </table>
+    </div>
+<div class="container">
+    <h1>Pelatihan Geo Mandiri Group</h1>
+    <p>Bidang Pesawat Angkat dan Pesawat Angkut</p>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Pelatihan</th>
+                    <th>Biaya</th>
+                    <th>Durasi</th>
+                    <th>Instruktur</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ahli K3 Pesawat Angkat dan Pesawat Angkut</td>
+                    <td>Rp 34.000.000</td>
+                    <td>25 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Tehnisi Pesawat Angkat dan Pesawat Angkut</td>
+                    <td>Rp12.1000.000</td>
+                    <td>9Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Operator Overhead Crane Kelas 1 </td>
+                    <td>Rp 7.500.000</td>
+                    <td>5 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Operator Overhead Crane Kelas 2</td>
+                    <td>Rp 6.500.0000</td>
+                    <td>4 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Operator Overhead Crane Kelas 3</td>
+                    <td>Rp 5.500.0000</td>
+                    <td>3 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Operator Forklift Kelas 1</td>
+                    <td>Rp 6.500.0000</td>
+                    <td>4 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+             <tr>
+                    <td>3</td>
+                    <td> 2 </td>
+                    <td>Rp 7.500.000</td>
+                    <td>5 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Operator Overhead Crane Kelas 2</td>
+                    <td>Rp 6.500.0000</td>
+                    <td>4 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Operator Overhead Crane Kelas 3</td>
+                    <td>Rp 5.500.0000</td>
+                    <td>3 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Operator Forklift Kelas 1</td>
+                    <td>Rp 6.500.0000</td>
+                    <td>4 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+            <tr>
+                    <td>7</td>
+                    <td>Operator Forklift Kelas 2</td>
+                    <td>Rp 5.500.0000</td>
+                    <td>3 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+            <tr>
+                    <td>8</td>
+                    <td>Operator Alat Berat</td>
+                    <td>Rp 7.000.0000</td>
+                    <td>4 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+            <tr>
+                    <td>9</td>
+                    <td>Juru Ikat (Ringger),Pita Transport (Conveyor)</td>
+                    <td>Rp 5.500.0000</td>
+                    <td>3 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Operator Gondola</td>
+                    <td>Rp 6.500.0000</td>
+                    <td>3 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+            
+            
+            </tbody>
+        </table>
+    </div>
+
+</div>
+<div class="container">
+    <h1>Pelatihan Geo Mandiri Group</h1>
+    <p>Bidang Pesawat Tenaga dan Produksi</p>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Pelatihan</th>
+                    <th>Biaya</th>
+                    <th>Durasi</th>
+                    <th>Instruktur</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ahli K3 Pesawat Tenaga dan Produksi</td>
+                    <td>Rp 33.500.000</td>
+                    <td>25 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Tehnisi Pesawat Tenaga dan Produksi</td>
+                    <td>Rp 12.000.000</td>
+                    <td>9 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Operator Penggerak Mula (Motor Diesel,Turbin)</td>
+                    <td>Rp 7.000.000</td>
+                    <td>4 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Operator Mesin Produksi dan Perkakas Kelas 1 </td>
+                    <td>Rp 8.000.0000</td>
+                    <td>5 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Operator Mesin Produksi dan Perkakas Kelas 2</td>
+                    <td>Rp 7.000.0000</td>
+                    <td>4 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Operator Tanur Kelas 1 </td>
+                    <td>Rp 8.000.0000</td>
+                    <td>5 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+            <tr>
+                    <td>6</td>
+                    <td>Operator Tanur Kelas 2 </td>
+                    <td>Rp 7.000.0000</td>
+                    <td>4 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+            
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="container">
+    <h1>Pelatihan Geo Mandiri Group</h1>
+    <p>Bidang Pesawat Uap,Bejana Tekan & Tangki Timbun</p>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Pelatihan</th>
+                    <th>Biaya</th>
+                    <th>Durasi</th>
+                    <th>Instruktur</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ahli K3 Pesawat Uap Bejana dan Tekan</td>
+                    <td>Rp 33.500.000</td>
+                    <td>25 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Tehnisi Pesawat Uap</td>
+                    <td>Rp12.000.000</td>
+                    <td>9 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Tehnisi Tangki Timbun dan Bejana Tekan</td>
+                    <td>Rp 12.000.000</td>
+                    <td>9 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Operator Boiler Kelas 1</td>
+                    <td>Rp 9.000.0000</td>
+                    <td>6 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Operator Boiler Kelas 2</td>
+                    <td>Rp 7.000.0000</td>
+                    <td>4 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="container">
+    <h1>Pelatihan Geo Mandiri Group</h1>
+    <p>Bidang Pengelasan</p>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Pelatihan</th>
+                    <th>Biaya</th>
+                    <th>Durasi</th>
+                    <th>Instruktur</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Juru Las GTAW/GMAW Kelas 1</td>
+                    <td>Rp 30.000.000</td>
+                    <td>5 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Juru Las GTAW/GMAW Kelas 2</td>
+                    <td>Rp 25.000.000</td>
+                    <td>5 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Juru Las GTAW/GMAW Kelas 3</td>
+                    <td>Rp 24.000.000</td>
+                    <td>5 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Juru Las Listrik / SMAW Kelas 1</td>
+                    <td>Rp 25.000.0000</td>
+                    <td>5 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Juru Las Listrik / SMAW Kelas 2</td>
+                    <td>Rp 24.000.0000</td>
+                    <td>5 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Juru Las Listrik / SMAW Kelas 3</td>
+                    <td>Rp 23.000.0000</td>
+                    <td>5 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+                 <tr>
+                    <td>7</td>
+                    <td>Juru Las Kombinasi GMAW / SMAW Kelas 1</td>
+                    <td>Rp 27.000.0000</td>
+                    <td>5 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Juru Las Kombinasi GMAW / SMAW Kelas 2</td>
+                    <td>Rp 26.000.0000</td>
+                    <td>5 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Juru Las Kombinasi GMAW / SMAW Kelas 3</td>
+                    <td>Rp 25.000.0000</td>
+                    <td>5 Hari</td>
+                    <td>Kemnaker</td>
+                    <td><button class="btn">Daftar</button></td>
+                </tr>
+                         
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>
+
+
+</body>
+</html><!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pelatihan Geo Mandiri Group</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+        background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url('https://images.unsplash.com/photo-1501785888041-af3ef285b470');
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+
+    .container {
+        width: 90%;
+        margin: 50px auto;
+        text-align: center;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+        font-size: 40px;
+    }
+
+    p {
+        margin-bottom: 30px;
+        color: #ddd;
+    }
+
+    .table-container {
+        overflow-x: auto;
+        backdrop-filter: blur(10px);
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background: rgba(255,255,255,0.1);
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    th, td {
+        padding: 15px;
+        text-align: center;
+    }
+
+    th {
+        background: rgba(0,0,0,0.6);
+        font-size: 18px;
+    }
+
+    tr {
+        transition: 0.3s;
+    }
+
+    tr:hover {
+        background: rgba(255,255,255,0.2);
+    }
+
+    td {
+        color: #f1f1f1;
+    }
+
+    .btn {
+        padding: 8px 15px;
+        border: none;
+        border-radius: 20px;
+        background: #00c9a7;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background: #00a387;
+        transform: scale(1.1);
+    }
+
+    footer {
+        margin-top: 30px;
+        color: #ccc;
+    }
+</style>
+
+</head>
+
+    <footer>
+        <p>© 2026 Geo Mandiri Group</p>
+    </footer>
+</div>
+
+</body>
+</html>
